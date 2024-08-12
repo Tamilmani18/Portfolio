@@ -11,6 +11,16 @@ export const Work = [
   },
   {
     id: 2,
+    name: "Social Media App",
+    description:
+      "Social Media app to share your thoughts and connect with friends.",
+    tags: ["react", "express.js", "tailwind"],
+
+    demo: "https://social-media-frontend-8fz2.onrender.com",
+    github: "https://github.com/Tamilmani18/Social-Media-Frontend",
+  },
+  {
+    id: 3,
     name: "Omnifood",
     description:
       "It is an AI-powered food subscription web app that will make you eat healthy again.",
@@ -20,7 +30,7 @@ export const Work = [
     github: "https://github.com/Tamilmani18/Omnifood",
   },
   {
-    id: 3,
+    id: 4,
     name: "Today I Learned",
     description:
       "It is a web app to share some useful and interesting facts in different topics..",
@@ -30,7 +40,7 @@ export const Work = [
     github: "https://github.com/Tamilmani18/Today-I-Learned",
   },
   {
-    id: 4,
+    id: 5,
     name: "Expense Tracker",
     description:
       "Expense Tracker is a daily utility tool to track your day to day profit and expenses.",
