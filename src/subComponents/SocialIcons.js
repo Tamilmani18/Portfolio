@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 // import { NavLink } from 'react-router-dom'
 import styled from "styled-components";
-import { Facebook, Github, Twitter, YouTube } from "../components/AllSvg";
+import { Leetcode, Github, Linkedin, Email } from "../components/AllSvg";
 import { darkTheme } from "../components/Themes";
 
 const Icons = styled.div`
@@ -58,9 +58,9 @@ const SocialIcons = (props) => {
           rel="noreferrer"
           style={{ color: "inherit" }}
           target="_blank"
-          href={"https://twitter.com/Tamil66756"}
+          href={"https://www.linkedin.com/in/tamil-mani18/"}
         >
-          <Twitter
+          <Linkedin
             width={25}
             height={25}
             fill={props.theme === "dark" ? darkTheme.text : darkTheme.body}
@@ -76,9 +76,9 @@ const SocialIcons = (props) => {
           rel="noreferrer"
           style={{ color: "inherit" }}
           target="_blank"
-          href={"https://facebook.com/codebucks27"}
+          href={"https://leetcode.com/u/Tamilmani18/"}
         >
-          <Facebook
+          <Leetcode
             width={25}
             height={25}
             fill={props.theme === "dark" ? darkTheme.text : darkTheme.body}
@@ -94,9 +94,9 @@ const SocialIcons = (props) => {
           rel="noreferrer"
           style={{ color: "inherit" }}
           target="_blank"
-          href={"https://youtube.com"}
+          href={"mailto:tamilmani.hp5@gmail.com"}
         >
-          <YouTube
+          <Email
             width={25}
             height={25}
             fill={props.theme === "dark" ? darkTheme.text : darkTheme.body}
