@@ -247,7 +247,7 @@ const Main = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                Say hi..
+                Resume..
               </motion.h3>
             </Contact>
           ) : (
@@ -268,7 +268,7 @@ const Main = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                Say hi..
+                Resume.
               </motion.h3>
             </Contact>
           )}
@@ -287,7 +287,7 @@ const Main = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
-                Blog
+                Feats
               </motion.h2>
             </BLOG>
           ) : (
@@ -323,7 +323,7 @@ const Main = () => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              Work
+              Projects
             </motion.h2>
           </WORK>
 
