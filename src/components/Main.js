@@ -233,30 +233,9 @@ const Main = () => {
             <Contact
               click={+click}
               target="_blank"
-              href="https://devdreaming.com/about" // need to replace with profile card
+              href="" // need to replace with profile card
             >
-              <motion.h3
-                initial={{
-                  y: -200,
-                  transition: { type: "spring", duration: 1.5, delay: 1 },
-                }}
-                animate={{
-                  y: 0,
-                  transition: { type: "spring", duration: 1.5, delay: 1 },
-                }}
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-              >
-                Resume..
-              </motion.h3>
-            </Contact>
-          ) : (
-            <Contact
-              click={+false}
-              target="_blank"
-              href="mailto:tamilmani.hp5@gmail.com"
-            >
-              <motion.h3
+              <motion.h2
                 initial={{
                   y: -200,
                   transition: { type: "spring", duration: 1.5, delay: 1 },
@@ -269,7 +248,28 @@ const Main = () => {
                 whileTap={{ scale: 0.9 }}
               >
                 Resume.
-              </motion.h3>
+              </motion.h2>
+            </Contact>
+          ) : (
+            <Contact
+              click={+false}
+              target="_blank"
+              href=""
+            >
+              <motion.h2
+                initial={{
+                  y: -200,
+                  transition: { type: "spring", duration: 1.5, delay: 1 },
+                }}
+                animate={{
+                  y: 0,
+                  transition: { type: "spring", duration: 1.5, delay: 1 },
+                }}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+              >
+                Resume.
+              </motion.h2>
             </Contact>
           )}
 
