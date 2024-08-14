@@ -2,6 +2,7 @@ import styled, { keyframes } from "styled-components";
 import { NavLink } from "react-router-dom";
 import { lazy, Suspense, useState } from "react";
 import { motion } from "framer-motion";
+import Resume from '../assets/resume/Resume.pdf'
 
 //Components
 import { YinYang } from "./AllSvg";
@@ -233,7 +234,9 @@ const Main = () => {
             <Contact
               click={+click}
               target="_blank"
-              href="" // need to replace with profile card
+              // href="" // need to replace with profile card
+              href=""
+              download={Resume}
             >
               <motion.h2
                 initial={{
@@ -255,6 +258,7 @@ const Main = () => {
               click={+false}
               target="_blank"
               href=""
+              download={Resume}
             >
               <motion.h2
                 initial={{
