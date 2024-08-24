@@ -233,7 +233,7 @@ const Main = () => {
             <Contact
               click={+click}
               target="_blank"
-              href="https://drive.google.com/file/d/1rh66iVCTu193Fd-QcHBjh3TJWXiVn5a5/view?usp=sharing" // need to replace with profile card
+              href="https://drive.google.com/file/d/1LKvm7p9VuYdM31GcYdtCcGL2G-7gYBpR/view?usp=sharing"
             >
               <motion.h2
                 initial={{
