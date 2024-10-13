@@ -233,7 +233,7 @@ const Main = () => {
             <Contact
               click={+click}
               target="_blank"
-              href="https://drive.google.com/file/d/1LKvm7p9VuYdM31GcYdtCcGL2G-7gYBpR/view?usp=sharing"
+              href="https://drive.google.com/file/d/1FjlqvC18ytCPztRSxbcU3mFga1wG6cWU/view?usp=sharing"
             >
               <motion.h2
                 initial={{
@@ -254,7 +254,7 @@ const Main = () => {
             <Contact
               click={+false}
               target="_blank"
-              href="https://drive.google.com/file/d/1LKvm7p9VuYdM31GcYdtCcGL2G-7gYBpR/view?usp=sharing"
+              href="https://drive.google.com/file/d/1FjlqvC18ytCPztRSxbcU3mFga1wG6cWU/view?usp=sharing"
             >
               <motion.h2
                 initial={{

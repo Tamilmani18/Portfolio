@@ -120,7 +120,7 @@ const AboutPage = () => {
             development work, I love to read books and write blogs. <br />
             <br />I believe everything is an Art when you put your consciousness
             in it. You can connect with me via social links.{" "}
-          </Main>
+          </Main>++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
           <BigTitle text="ABOUT" top="10%" left="5%" />
         </Box>
       </Suspense>
