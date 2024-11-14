@@ -13,7 +13,7 @@ export const Blogs = [
     tags: ["app development", "flutter", "cross platform"],
     date: "28 Oct, 2024",
     imgSrc:
-      "https://res.cloudinary.com/dvuyywuw5/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1730741315/Certificates/Flutter_olrxkc.jpg",
+      "https://res.cloudinary.com/dvuyywuw5/image/upload/w_1300,h_650,ar_16:9,c_fill,g_auto,e_sharpen/v1730741315/Certificates/Flutter_olrxkc.jpg",
     link: "https://www.udemy.com/certificate/UC-518e5050-6428-4051-9056-c06ce8a9afd9/",
   },
   {
